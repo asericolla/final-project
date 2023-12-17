@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Lato&family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Lato&family=Montserrat&family=Poppins:wght@600&display=swap');
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #CD8D7A;
+    color: white;
+    text-align: left;
+    padding: 2.5rem;
+    vertical-align: top;
+}
+
+.header-left {
+    float: left;    
+}
+
+.header-left h1 {
+    margin: 0;
+    font-size: 1.3rem; 
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.header-left p {
+    margin: 0;
+    font-size: 1rem; 
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.header-right {
+    float: right;
+    display: flex;
+    align-items: center;
+}
+
+.header-right a {
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.header-right a:hover {
+    color: #555; 
+}
+
+.main-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.left-section {
+    font-family: Poppins;
+    width: 35%; 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #DBCC95; 
+    padding: 15px; 
+    border-radius: 12px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+
+    
+}
+
+.separator {
+    width: 200px; 
+    height: 2px;
+    background-color: black; 
+    margin: 10px 0; 
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    background-color: #ccc;
+    border-radius: 50%;
+    background-image: url('img.jpg'); 
+    background-size: cover;
+    margin-bottom: 10px;    
+}
+
+.left-section p {
+    margin: 0;
+    font-size: 1rem; 
+}
+
+.right-section {
+    width: 55%;
+}
+
+
+.hello-section {
+    font-family: Poppins;
+    background-color: #EAECCC;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+
+    
+}
+
+.buttons button {
+    background-color: #DBCC95; 
+    color: #333; 
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+    
+}
+
+.buttons button:hover {
+    background-color: #A09F76; 
+}
+
+.content {
+    font-family: 'Montserrat', sans-serif;
+    overflow-y: auto;
+    max-height: 450px; 
+    width: 100%;
+}
+
+.scrollable-content {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+footer {
+    background-color: #CD8D7A;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.category-title {
+    font-family: Poppins;
+    background-color: #EAECCC;
+    padding: 10px; 
+    border-radius: 5px; 
+}
+
+.category li {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 8px; 
+}
+
+
